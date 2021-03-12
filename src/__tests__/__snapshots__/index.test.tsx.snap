@@ -1,0 +1,898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormFromSchema invalid schema item Render 1`] = `
+Object {
+  "asFragment": <DocumentFragment>
+    <form>
+      <div>
+        Type not supported. name: , schema.type: someNewYupType
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Save
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </DocumentFragment>,
+  "onSubmitCalls": Array [
+    Array [
+      undefined,
+      "[object Event]",
+      2,
+    ],
+  ],
+}
+`;
+
+exports[`FormFromSchema schema1 Render with user == null 1`] = `
+Object {
+  "asFragment": <DocumentFragment>
+    <form>
+      <ul
+        class="MuiList-root fullWidth MuiList-padding"
+      >
+        <div
+          class="objectChildren"
+        >
+          <ul
+            class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+          >
+            <li
+              class="MuiListSubheader-root"
+            >
+              user
+            </li>
+            <div
+              class="objectChildren"
+            >
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                    data-shrink="false"
+                  >
+                    firstName
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.firstName"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                    data-shrink="false"
+                  >
+                    age
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.age"
+                      type="number"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                    data-shrink="false"
+                  >
+                    dob
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
+                      name="user.dob"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiIconButton-label"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                            />
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul
+                class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+              >
+                <li
+                  class="MuiListSubheader-root"
+                >
+                  animal
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root addIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </svg>
+                </li>
+                <div />
+              </ul>
+              <label
+                class="MuiFormControlLabel-root"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-9 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-12"
+                      data-indeterminate="false"
+                      name="user.hasGlasses"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  hasGlasses
+                </span>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </ul>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Save
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </DocumentFragment>,
+  "onSubmitCalls": Array [
+    Array [
+      Object {
+        "user": Object {
+          "age": 0,
+          "animal": Array [],
+          "dob": "",
+          "firstName": "",
+          "hasGlasses": false,
+        },
+      },
+      "[object Event]",
+      2,
+    ],
+  ],
+}
+`;
+
+exports[`FormFromSchema schema1 Render with values 1`] = `
+Object {
+  "asFragment": <DocumentFragment>
+    <form>
+      <ul
+        class="MuiList-root fullWidth MuiList-padding"
+      >
+        <div
+          class="objectChildren"
+        >
+          <ul
+            class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+          >
+            <li
+              class="MuiListSubheader-root"
+            >
+              user
+            </li>
+            <div
+              class="objectChildren"
+            >
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                    data-shrink="true"
+                  >
+                    firstName
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.firstName"
+                      type="text"
+                      value="John"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                    data-shrink="true"
+                  >
+                    age
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.age"
+                      type="number"
+                      value="28"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                    data-shrink="true"
+                  >
+                    dob
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
+                      name="user.dob"
+                      type="text"
+                      value="01/01/1970"
+                    />
+                    <div
+                      class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiIconButton-label"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                            />
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul
+                class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+              >
+                <li
+                  class="MuiListSubheader-root"
+                >
+                  animal
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root addIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </svg>
+                </li>
+                <div>
+                  <div>
+                    <li
+                      class="MuiListItem-container"
+                    >
+                      <div
+                        class="MuiListItem-root MuiListItem-gutters MuiListItem-secondaryAction"
+                      >
+                        <ul
+                          class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+                        >
+                          <li
+                            class="MuiListSubheader-root"
+                          >
+                            0
+                          </li>
+                          <div
+                            class="objectChildren"
+                          >
+                            <div>
+                              <div
+                                class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                  data-shrink="true"
+                                >
+                                  name
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    class="MuiInputBase-input MuiInput-input"
+                                    name="user.animal.0.name"
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div
+                                class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                  data-shrink="true"
+                                >
+                                  legs
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    class="MuiInputBase-input MuiInput-input"
+                                    name="user.animal.0.legs"
+                                    type="number"
+                                    value=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                      <div
+                        class="MuiListItemSecondaryAction-root"
+                      >
+                        <div
+                          class="MuiListItemIcon-root drag-handle noIconSpacing"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M20 9H4v2h16V9zM4 15h16v-2H4v2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiListItemIcon-root noIconSpacing"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root deleteListItem"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div>
+                    <li
+                      class="MuiListItem-container"
+                    >
+                      <div
+                        class="MuiListItem-root MuiListItem-gutters MuiListItem-secondaryAction"
+                      >
+                        <ul
+                          class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+                        >
+                          <li
+                            class="MuiListSubheader-root"
+                          >
+                            1
+                          </li>
+                          <div
+                            class="objectChildren"
+                          >
+                            <div>
+                              <div
+                                class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                  data-shrink="true"
+                                >
+                                  name
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    class="MuiInputBase-input MuiInput-input"
+                                    name="user.animal.1.name"
+                                    type="text"
+                                    value="Coco birdie"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div
+                                class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                  data-shrink="true"
+                                >
+                                  legs
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    class="MuiInputBase-input MuiInput-input"
+                                    name="user.animal.1.legs"
+                                    type="number"
+                                    value="2"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                      <div
+                        class="MuiListItemSecondaryAction-root"
+                      >
+                        <div
+                          class="MuiListItemIcon-root drag-handle noIconSpacing"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M20 9H4v2h16V9zM4 15h16v-2H4v2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiListItemIcon-root noIconSpacing"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root deleteListItem"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+              <label
+                class="MuiFormControlLabel-root"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input-4"
+                      data-indeterminate="false"
+                      name="user.hasGlasses"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  hasGlasses
+                </span>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </ul>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Save
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </DocumentFragment>,
+  "onSubmitCalls": Array [
+    Array [
+      Object {
+        "user": Object {
+          "age": 28,
+          "animal": Array [
+            Object {
+              "legs": 4,
+              "name": "Kitty cat",
+            },
+            Object {
+              "legs": 2,
+              "name": "Coco birdie",
+            },
+          ],
+          "dob": "01/01/1970",
+          "firstName": "John",
+          "hasGlasses": true,
+        },
+      },
+      "[object Event]",
+      2,
+    ],
+  ],
+}
+`;
+
+exports[`FormFromSchema schema1 Render without values 1`] = `
+Object {
+  "asFragment": <DocumentFragment>
+    <form>
+      <ul
+        class="MuiList-root fullWidth MuiList-padding"
+      >
+        <div
+          class="objectChildren"
+        >
+          <ul
+            class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+          >
+            <li
+              class="MuiListSubheader-root"
+            >
+              user
+            </li>
+            <div
+              class="objectChildren"
+            >
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                    data-shrink="false"
+                  >
+                    firstName
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.firstName"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                    data-shrink="false"
+                  >
+                    age
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input"
+                      name="user.age"
+                      type="number"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                    data-shrink="true"
+                  >
+                    dob
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
+                      name="user.dob"
+                      type="text"
+                      value="01/01/2020"
+                    />
+                    <div
+                      class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiIconButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="MuiIconButton-label"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                            />
+                            <path
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul
+                class="MuiList-root fullWidth MuiList-padding MuiList-subheader"
+              >
+                <li
+                  class="MuiListSubheader-root"
+                >
+                  animal
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root addIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                    />
+                  </svg>
+                </li>
+                <div />
+              </ul>
+              <label
+                class="MuiFormControlLabel-root"
+              >
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-8"
+                      data-indeterminate="false"
+                      name="user.hasGlasses"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </span>
+                <span
+                  class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                >
+                  hasGlasses
+                </span>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </ul>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Save
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </DocumentFragment>,
+  "onSubmitCalls": Array [
+    Array [
+      Object {
+        "user": Object {
+          "age": 0,
+          "animal": Array [],
+          "dob": "01/01/2020",
+          "firstName": "",
+          "hasGlasses": false,
+        },
+      },
+      "[object Event]",
+      2,
+    ],
+  ],
+}
+`;

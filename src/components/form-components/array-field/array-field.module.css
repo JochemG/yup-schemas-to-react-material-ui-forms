@@ -1,0 +1,18 @@
+
+.noIconSpacing {
+
+}
+.addIcon {
+  right: 16px;
+  position: absolute;
+}
+.deleteListItem {
+
+}
+:global(.MuiListItemIcon-root).noIconSpacing {
+  min-width: auto;
+}
+
+.fullWidth {
+  width: 100%;
+}
