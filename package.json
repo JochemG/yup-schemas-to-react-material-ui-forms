@@ -1,7 +1,7 @@
 {
   "name": "yup-schemas-to-react-material-ui-forms",
   "description": "Creating large complex forms in React can be as easy as creating a Yup validation schema",
-  "version": "0.0.0-alpha.4",
+  "version": "0.0.0-alpha.5",
   "main": "public/index.amd.js",
   "type": "module",
   "module": "public/index.esm.js",

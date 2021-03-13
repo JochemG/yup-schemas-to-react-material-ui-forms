@@ -39,10 +39,10 @@ function useOnSubmit<ValueType>(schema: AnySchema, onSubmit: OnSubmitType<ValueT
 
 export function FormFromSchema<ValueType>({schema, value, onSubmit}: FormFromSchemaProps<ValueType>) {
     const onSubmitHandler = useOnSubmit(schema, onSubmit);
-    return <MuiPickersUtilsProvider utils={DateFnsUtils}>
+    const children =
         <form onSubmit={onSubmitHandler}>
             <RecursiveFormFromSchema schema={schema} value={value} namePath={[]}/>
             <Button type={"submit"}>Save</Button>
-        </form>
-    </MuiPickersUtilsProvider>;
+        </form>;
+    return <MuiPickersUtilsProvider utils={DateFnsUtils} children={children}/>;
 }

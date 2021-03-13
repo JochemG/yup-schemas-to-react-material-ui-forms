@@ -1,9 +1,16 @@
 import commonRollupConfig from "./rollup.config.js";
 import merge from "rollup-merge-config" ;
-import { terser } from 'rollup-plugin-terser';
+import {terser} from "rollup-plugin-terser";
+import typescript from "rollup-plugin-typescript2";
+
+const productionRollupConfigBeforeCommonConfig = {
+    plugins: [
+        typescript()
+    ]
+};
 
 const productionRollupConfig = {
-    input: 'src/index.tsx',
+    input: "src/index.tsx",
     external: ["react", "@material-ui/core", "@material-ui/icons", "@material-ui/pickers"],
     output: [
         {
@@ -20,8 +27,11 @@ const productionRollupConfig = {
     plugins: [
         terser()
     ]
-}
+};
 
-const config = merge(commonRollupConfig, productionRollupConfig);
+const config = merge(
+    productionRollupConfigBeforeCommonConfig,
+    commonRollupConfig,
+    productionRollupConfig);
 console.log(config);
 export default config;
