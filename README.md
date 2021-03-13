@@ -37,3 +37,9 @@ function renderForm({initialFormValue, saveNewValue}) {
     }/>;
 }
 ```
+
+# Try it yourself
+1) Clone the repository (you can find the URL in the package.json and on npmjs.com)
+1) ```npm install```
+1) ```npm start```. This can take a minute to compile & open a browser window that shows the example.
+1) Optional: modify the ```/src/local-dev-index.tsx``` and try out your own yup schemas :)

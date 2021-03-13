@@ -1,10 +1,20 @@
 {
   "name": "yup-schemas-to-react-material-ui-forms",
-  "version": "0.0.0-alpha.2",
+  "description": "Creating large complex forms in React can be as easy as creating a Yup validation schema",
+  "version": "0.0.0-alpha.4",
   "main": "public/index.amd.js",
   "type": "module",
   "module": "public/index.esm.js",
   "license": "MIT",
+  "keywords": ["react", "yup", "material-ui", "form"],
+  "repository": {
+    "url": "git+https://github.com/JochemG/yup-schemas-to-react-material-ui-forms.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/JochemG/yup-schemas-to-react-material-ui-forms/issues"
+  },
+  "homepage": "https://github.com/JochemG/yup-schemas-to-react-material-ui-forms",
   "scripts": {
     "start": "rollup -c rollup.config.development.js -w",
     "build": "rimraf public && cross-env NODE_ENV=production rollup -c rollup.config.production.js",

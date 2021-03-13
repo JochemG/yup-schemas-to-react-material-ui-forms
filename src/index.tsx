@@ -13,3 +13,7 @@ registerNumberField();
 registerStringField();
 
 export {FormFromSchema} from "./components/form-from-schema/form-from-schema";
+export type {FormFromSchemaProps, OnSubmitType} from "./components/form-from-schema/form-from-schema";
+export {registerYupSchemaType} from "./yup-schema-type-mappings";
+export type {MappingType, ValueFunction, MappingReactComponent, RecursiveApplySchemaFunction} from "./yup-schema-type-mappings";
+export type {FieldComponentProps} from "./common-types/field-component"
