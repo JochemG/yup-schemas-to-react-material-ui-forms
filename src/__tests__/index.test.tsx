@@ -37,7 +37,7 @@ describe('FormFromSchema', () => {
             expect.assertions(1);
             const actions = ({container}: {container: HTMLElement}) => {
                 // Add cat with 4 legs to end of animals list
-                fireEvent.click(container.getElementsByClassName("addIcon")[0]);
+                fireEvent.click(container.getElementsByClassName("addListItem")[0]);
                 fireEvent.change(container.querySelector('input[name="user.animal.2.name"]'), { target: { value: 'Kitty cat' } });
                 fireEvent.change(container.querySelector('input[name="user.animal.2.legs"]'), { target: { value: '4' } });
                 // Delete the dog (first item)

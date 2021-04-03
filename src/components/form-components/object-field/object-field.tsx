@@ -1,25 +1,27 @@
 import React from 'react';
-import {List, ListSubheader} from '@material-ui/core'
+import {List, ListSubheader, Box} from '@material-ui/core'
 import {AnySchema, ObjectSchema} from "yup";
 import {RecursiveFormFromSchema} from "../../recursive-form-from-schema/recursive-form-from-schema";
 import {FieldComponentProps} from "../../../common-types/field-component";
 import styles from './object-field.module.css';
 import {registerYupSchemaType} from "../../../yup-schema-type-mappings";
 
-function ObjectField({namePath, schema, value}: FieldComponentProps) {
+function ObjectField({namePath, schema, value, schemaMetaData}: FieldComponentProps) {
     const objectSchema = schema as ObjectSchema<any>;
     const fields = objectSchema.fields;
-    return <List className={styles.fullWidth} subheader={namePath.length ?
-        <ListSubheader disableSticky={true} disableGutters={true}>
-            {namePath[namePath.length - 1]}
-        </ListSubheader> :
-        undefined
-    }>
-        <div className={styles.objectChildren}>
+    const label = schemaMetaData?.label === undefined ? namePath[namePath.length - 1] : schemaMetaData.label;
+    const SubHeader = label ?
+        <ListSubheader disableSticky={true} disableGutters={true}>{label}</ListSubheader> :
+        undefined;
+    return <List className={styles.fullWidth} subheader={SubHeader} disablePadding={true}>
+        <Box px={namePath.length ? 1 : 0}>
             {Object.entries(fields).map(([fieldName, field], index) =>
-                <RecursiveFormFromSchema key={index} schema={field as AnySchema} namePath={[...namePath, fieldName]}
-                                         value={value && value[fieldName]}/>)}
-        </div>
+                <Box py={.5} key={index}>
+                    <RecursiveFormFromSchema schema={field as AnySchema} namePath={[...namePath, fieldName]}
+                                             value={value && value[fieldName]}/>
+                </Box>
+            )}
+        </Box>
     </List>;
 }
 

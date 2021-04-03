@@ -1,5 +1,13 @@
 import React, {useState} from 'react';
-import {List, ListItem, ListItemIcon, ListItemSecondaryAction, ListSubheader} from '@material-ui/core'
+import {
+    Divider,
+    IconButton,
+    List,
+    ListItem,
+    ListItemIcon,
+    ListItemSecondaryAction,
+    ListSubheader, Typography, Toolbar, Box
+} from '@material-ui/core'
 import {AnySchema, ArraySchema} from "yup";
 import {RecursiveFormFromSchema} from "../../recursive-form-from-schema/recursive-form-from-schema";
 import {FieldComponentProps} from "../../../common-types/field-component";
@@ -43,23 +51,31 @@ function useArrayField({namePath, schema, value}: FieldComponentProps) {
 
 function ArrayField(props: FieldComponentProps) {
     const {onAdd, onDrop, onDelete, items, childSchema, name, extendNamePath} = useArrayField(props);
-    return <List className={styles.fullWidth} subheader={<>
+    return <List disablePadding={true} className={styles.fullWidth} subheader={<>
         <ListSubheader disableSticky={true} disableGutters={true}>
-            {name}
-            <Add className={styles.addIcon} onClick={() => onAdd()}/>
+            <Toolbar disableGutters={true} variant={"dense"}>
+                <Typography>{name}</Typography>
+                <Box paddingLeft={1}>
+                    <IconButton onClick={() => onAdd()} className={styles.addListItem}>
+                        <Add/>
+                    </IconButton>
+                </Box>
+            </Toolbar>
         </ListSubheader>
     </>}>
-        <Container dragHandleSelector=".drag-handle" lockAxis="y" onDrop={(event) => onDrop(event)}>
+        {!!items?.length && <Container dragHandleSelector=".drag-handle" lockAxis="y" onDrop={(event) => onDrop(event)}>
             {items.map((childValue: ArrayItem, index) =>
                 <Draggable key={childValue.id}>
-                    <ListItem>
+                    {!!index && <Divider/>}
+                    <ListItem disableGutters={true} dense={true}>
+                        <ListItemIcon className={`drag-handle ${styles.noIconSpacing}`}>
+                            <DragHandle/>
+                        </ListItemIcon>
+
                         <RecursiveFormFromSchema schema={childSchema} namePath={extendNamePath(index)}
-                                                 value={childValue.value}/>
+                                                 value={childValue.value} schemaMetaData={{label: false}}/>
 
                         <ListItemSecondaryAction>
-                            <ListItemIcon className={`drag-handle ${styles.noIconSpacing}`}>
-                                <DragHandle/>
-                            </ListItemIcon>
                             <ListItemIcon className={styles.noIconSpacing}>
                                 <Delete onClick={() => onDelete(childValue)} className={styles.deleteListItem}/>
                             </ListItemIcon>
@@ -67,7 +83,7 @@ function ArrayField(props: FieldComponentProps) {
                     </ListItem>
                 </Draggable>
             )}
-        </Container>
+        </Container>}
     </List>;
 }
 

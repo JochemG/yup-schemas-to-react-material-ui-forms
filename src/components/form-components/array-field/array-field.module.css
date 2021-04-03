@@ -2,12 +2,9 @@
 .noIconSpacing {
 
 }
-.addIcon {
-  right: 16px;
-  position: absolute;
+.addListItem {
 }
 .deleteListItem {
-
 }
 :global(.MuiListItemIcon-root).noIconSpacing {
   min-width: auto;
