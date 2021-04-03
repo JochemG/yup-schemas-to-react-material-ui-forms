@@ -8,7 +8,7 @@ import DateFnsUtils from "@date-io/date-fns";
 import {RecursiveApplySchemaFunction, MAP_FIELD_TYPE_TO_VALUE_FUNCTION} from "../../yup-schema-type-mappings";
 
 export type OnSubmitType<ValueType> = (value: ValueType, event: FormEvent<HTMLFormElement>) => void;
-export type FormFromSchemaProps<ValueType> = { schema: AnySchema, value: ValueType, onSubmit: OnSubmitType<ValueType> };
+export type FormFromSchemaProps<ValueType> = { schema: AnySchema, value?: ValueType, onSubmit?: OnSubmitType<ValueType> };
 
 function recursiveApplySchema(schema: AnySchema, value: any): RecursiveApplySchemaFunction {
     const schemaType = schema.type;
