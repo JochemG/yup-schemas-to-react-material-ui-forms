@@ -14,7 +14,7 @@ function ObjectField({namePath, schema, value, schemaMetaData}: FieldComponentPr
         <ListSubheader disableSticky={true} disableGutters={true}>{label}</ListSubheader> :
         undefined;
     return <List className={styles.fullWidth} subheader={SubHeader} disablePadding={true}>
-        <Box px={namePath.length ? 1 : 0}>
+        <Box paddingLeft={label ? 1 : 0}>
             {Object.entries(fields).map(([fieldName, field], index) =>
                 <Box py={.5} key={index}>
                     <RecursiveFormFromSchema schema={field as AnySchema} namePath={[...namePath, fieldName]}

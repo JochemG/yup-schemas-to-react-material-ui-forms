@@ -1,12 +1,13 @@
 import React from 'react';
-import {TextField} from '@material-ui/core'
+import {Box, TextField} from '@material-ui/core'
 import {FieldComponentProps} from "../../../common-types/field-component";
 import {registerYupSchemaType} from "../../../yup-schema-type-mappings";
 
-function NumberField({namePath, value}: FieldComponentProps) {
-    return <div>
-        <TextField fullWidth={true} label={namePath[namePath.length - 1]} name={namePath.join('.')} defaultValue={value} type={'number'}/>
-    </div>;
+function NumberField({namePath, value, schemaMetaData}: FieldComponentProps) {
+    const label = schemaMetaData?.label === undefined ? namePath[namePath.length - 1] : schemaMetaData.label;
+    return <Box width={"100%"} >
+        <TextField fullWidth={true} label={label || false} name={namePath.join('.')} defaultValue={value} type={'number'}/>
+    </Box>;
 }
 
 export function register() {

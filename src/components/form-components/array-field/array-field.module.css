@@ -1,13 +1,6 @@
-
-.noIconSpacing {
-
-}
 .addListItem {
 }
 .deleteListItem {
-}
-:global(.MuiListItemIcon-root).noIconSpacing {
-  min-width: auto;
 }
 
 .fullWidth {

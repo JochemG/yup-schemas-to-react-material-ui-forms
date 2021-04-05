@@ -1,0 +1,9 @@
+/.idea/
+/coverage/
+/test-schemas/
+/__mocks__/
+**/__tests__/
+/rollup.config.development.js
+/rollup.config.js
+/rollup.config.production.js
+/jest.config.ts

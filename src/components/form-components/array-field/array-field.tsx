@@ -4,18 +4,15 @@ import {
     IconButton,
     List,
     ListItem,
-    ListItemIcon,
-    ListItemSecondaryAction,
-    ListSubheader, Typography, Toolbar, Box
+    ListSubheader, Typography, Box, Grid
 } from '@material-ui/core'
 import {AnySchema, ArraySchema} from "yup";
 import {RecursiveFormFromSchema} from "../../recursive-form-from-schema/recursive-form-from-schema";
 import {FieldComponentProps} from "../../../common-types/field-component";
 import {Container, Draggable} from "react-smooth-dnd";
 import arrayMove from "array-move";
-import {DragHandle, Delete, Add, ListAlt} from "@material-ui/icons";
+import {DragHandle, Delete, Add} from "@material-ui/icons";
 import styles from './array-field.module.css';
-import {last} from 'lodash-es';
 import {registerYupSchemaType} from "../../../yup-schema-type-mappings";
 
 type OnDropFn = (params: any) => void;
@@ -28,7 +25,7 @@ function initialItems(value: any[]) {
         .map((v: any, i: number) => ({id: i, value: v}));
 }
 
-function useArrayField({namePath, schema, value}: FieldComponentProps) {
+function useArrayField({namePath, schema, value, schemaMetaData}: FieldComponentProps) {
     const valueArray = initialItems(value);
     const [id, setId] = useState<number>(valueArray.length);
     const [items, setItems] = useState<ArrayItem[]>(valueArray);
@@ -45,22 +42,26 @@ function useArrayField({namePath, schema, value}: FieldComponentProps) {
     const typedSchema = schema as ArraySchema<any>;
     const childSchema = typedSchema.innerType as AnySchema;
     const extendNamePath = (index: number) => [...namePath, index + ""];
-    const name = last(namePath);
+    const name = schemaMetaData?.label === undefined ? namePath[namePath.length - 1] : schemaMetaData.label;
     return {onAdd, onDrop, onDelete, items, childSchema, extendNamePath, name};
 }
 
 function ArrayField(props: FieldComponentProps) {
     const {onAdd, onDrop, onDelete, items, childSchema, name, extendNamePath} = useArrayField(props);
-    return <List disablePadding={true} className={styles.fullWidth} subheader={<>
+    return <List dense={true} disablePadding={true} className={styles.fullWidth} subheader={<>
         <ListSubheader disableSticky={true} disableGutters={true}>
-            <Toolbar disableGutters={true} variant={"dense"}>
-                <Typography>{name}</Typography>
-                <Box paddingLeft={1}>
-                    <IconButton onClick={() => onAdd()} className={styles.addListItem}>
-                        <Add/>
-                    </IconButton>
-                </Box>
-            </Toolbar>
+            <Grid container justify={"space-between"} alignItems={"center"}>
+                <Grid>
+                    <Typography>{name}</Typography>
+                </Grid>
+                <Grid>
+                    <Box paddingLeft={1}>
+                        <IconButton onClick={() => onAdd()} className={styles.addListItem}>
+                            <Add/>
+                        </IconButton>
+                    </Box>
+                </Grid>
+            </Grid>
         </ListSubheader>
     </>}>
         {!!items?.length && <Container dragHandleSelector=".drag-handle" lockAxis="y" onDrop={(event) => onDrop(event)}>
@@ -68,18 +69,14 @@ function ArrayField(props: FieldComponentProps) {
                 <Draggable key={childValue.id}>
                     {!!index && <Divider/>}
                     <ListItem disableGutters={true} dense={true}>
-                        <ListItemIcon className={`drag-handle ${styles.noIconSpacing}`}>
+                        <IconButton className={`drag-handle`}>
                             <DragHandle/>
-                        </ListItemIcon>
-
+                        </IconButton>
                         <RecursiveFormFromSchema schema={childSchema} namePath={extendNamePath(index)}
                                                  value={childValue.value} schemaMetaData={{label: false}}/>
-
-                        <ListItemSecondaryAction>
-                            <ListItemIcon className={styles.noIconSpacing}>
-                                <Delete onClick={() => onDelete(childValue)} className={styles.deleteListItem}/>
-                            </ListItemIcon>
-                        </ListItemSecondaryAction>
+                        <IconButton className={styles.deleteListItem} onClick={() => onDelete(childValue)}>
+                            <Delete/>
+                        </IconButton>
                     </ListItem>
                 </Draggable>
             )}

@@ -41,10 +41,10 @@ Object {
         class="MuiList-root fullWidth"
       >
         <div
-          class="MuiBox-root MuiBox-root-36"
+          class="MuiBox-root MuiBox-root-50"
         >
           <div
-            class="MuiBox-root MuiBox-root-37"
+            class="MuiBox-root MuiBox-root-51"
           >
             <ul
               class="MuiList-root fullWidth MuiList-subheader"
@@ -55,12 +55,14 @@ Object {
                 user
               </li>
               <div
-                class="MuiBox-root MuiBox-root-38"
+                class="MuiBox-root MuiBox-root-52"
               >
                 <div
-                  class="MuiBox-root MuiBox-root-39"
+                  class="MuiBox-root MuiBox-root-53"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-54"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -85,9 +87,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-40"
+                  class="MuiBox-root MuiBox-root-55"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-56"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -112,9 +116,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-41"
+                  class="MuiBox-root MuiBox-root-57"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-58"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -170,94 +176,106 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-42"
+                  class="MuiBox-root MuiBox-root-59"
                 >
                   <ul
-                    class="MuiList-root fullWidth MuiList-subheader"
+                    class="MuiList-root fullWidth MuiList-dense MuiList-subheader"
                   >
                     <li
                       class="MuiListSubheader-root"
                     >
                       <div
-                        class="MuiToolbar-root MuiToolbar-dense"
+                        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
                       >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1"
-                        >
-                          animal
-                        </p>
                         <div
-                          class="MuiBox-root MuiBox-root-43"
+                          class="MuiGrid-root"
                         >
-                          <button
-                            class="MuiButtonBase-root MuiIconButton-root addListItem"
-                            tabindex="0"
-                            type="button"
+                          <p
+                            class="MuiTypography-root MuiTypography-body1"
                           >
-                            <span
-                              class="MuiIconButton-label"
+                            animal
+                          </p>
+                        </div>
+                        <div
+                          class="MuiGrid-root"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-60"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiIconButton-root addListItem"
+                              tabindex="0"
+                              type="button"
                             >
-                              <svg
-                                aria-hidden="true"
-                                class="MuiSvgIcon-root"
-                                focusable="false"
-                                viewBox="0 0 24 24"
+                              <span
+                                class="MuiIconButton-label"
                               >
-                                <path
-                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                                />
-                              </svg>
-                            </span>
-                            <span
-                              class="MuiTouchRipple-root"
-                            />
-                          </button>
+                                <svg
+                                  aria-hidden="true"
+                                  class="MuiSvgIcon-root"
+                                  focusable="false"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-44"
+                  class="MuiBox-root MuiBox-root-61"
                 >
-                  <label
-                    class="MuiFormControlLabel-root"
+                  <div
+                    class="MuiBox-root MuiBox-root-62"
                   >
-                    <span
-                      aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-45 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                    <label
+                      class="MuiFormControlLabel-root"
                     >
                       <span
-                        class="MuiIconButton-label"
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-63 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                       >
-                        <input
-                          class="PrivateSwitchBase-input-48"
-                          data-indeterminate="false"
-                          name="user.hasGlasses"
-                          type="checkbox"
-                          value="true"
-                        />
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root"
-                          focusable="false"
-                          viewBox="0 0 24 24"
+                        <span
+                          class="MuiIconButton-label"
                         >
-                          <path
-                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          <input
+                            class="PrivateSwitchBase-input-66"
+                            data-indeterminate="false"
+                            name="user.hasGlasses"
+                            type="checkbox"
+                            value="true"
                           />
-                        </svg>
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
                       </span>
                       <span
-                        class="MuiTouchRipple-root"
-                      />
-                    </span>
-                    <span
-                      class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-                    >
-                      hasGlasses
-                    </span>
-                  </label>
+                        class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      >
+                        hasGlasses
+                      </span>
+                    </label>
+                  </div>
                 </div>
               </div>
             </ul>
@@ -325,7 +343,9 @@ Object {
                 <div
                   class="MuiBox-root MuiBox-root-4"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-5"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -350,9 +370,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-5"
+                  class="MuiBox-root MuiBox-root-6"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-7"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -377,9 +399,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-6"
+                  class="MuiBox-root MuiBox-root-8"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-9"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -435,27 +459,66 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-7"
+                  class="MuiBox-root MuiBox-root-10"
                 >
                   <ul
-                    class="MuiList-root fullWidth MuiList-subheader"
+                    class="MuiList-root fullWidth MuiList-dense MuiList-subheader"
                   >
                     <li
                       class="MuiListSubheader-root"
                     >
                       <div
-                        class="MuiToolbar-root MuiToolbar-dense"
+                        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
                       >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1"
-                        >
-                          animal
-                        </p>
                         <div
-                          class="MuiBox-root MuiBox-root-8"
+                          class="MuiGrid-root"
+                        >
+                          <p
+                            class="MuiTypography-root MuiTypography-body1"
+                          >
+                            animal
+                          </p>
+                        </div>
+                        <div
+                          class="MuiGrid-root"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-11"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiIconButton-root addListItem"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <span
+                                class="MuiIconButton-label"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="MuiSvgIcon-root"
+                                  focusable="false"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <div>
+                      <div>
+                        <li
+                          class="MuiListItem-root MuiListItem-dense"
                         >
                           <button
-                            class="MuiButtonBase-root MuiIconButton-root addListItem"
+                            class="MuiButtonBase-root MuiIconButton-root drag-handle"
                             tabindex="0"
                             type="button"
                           >
@@ -469,7 +532,7 @@ Object {
                                 viewBox="0 0 24 24"
                               >
                                 <path
-                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                  d="M20 9H4v2h16V9zM4 15h16v-2H4v2z"
                                 />
                               </svg>
                             </span>
@@ -477,19 +540,79 @@ Object {
                               class="MuiTouchRipple-root"
                             />
                           </button>
-                        </div>
-                      </div>
-                    </li>
-                    <div>
-                      <div>
-                        <li
-                          class="MuiListItem-container"
-                        >
-                          <div
-                            class="MuiListItem-root MuiListItem-dense MuiListItem-secondaryAction"
+                          <ul
+                            class="MuiList-root fullWidth"
                           >
                             <div
-                              class="MuiListItemIcon-root drag-handle noIconSpacing"
+                              class="MuiBox-root MuiBox-root-28"
+                            >
+                              <div
+                                class="MuiBox-root MuiBox-root-29"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-30"
+                                >
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                  >
+                                    <label
+                                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                      data-shrink="true"
+                                    >
+                                      name
+                                    </label>
+                                    <div
+                                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        class="MuiInputBase-input MuiInput-input"
+                                        name="user.animal.0.name"
+                                        type="text"
+                                        value=""
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="MuiBox-root MuiBox-root-31"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-32"
+                                >
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                  >
+                                    <label
+                                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                      data-shrink="true"
+                                    >
+                                      legs
+                                    </label>
+                                    <div
+                                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        class="MuiInputBase-input MuiInput-input"
+                                        name="user.animal.0.legs"
+                                        type="number"
+                                        value=""
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </ul>
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root deleteListItem"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
                             >
                               <svg
                                 aria-hidden="true"
@@ -498,91 +621,14 @@ Object {
                                 viewBox="0 0 24 24"
                               >
                                 <path
-                                  d="M20 9H4v2h16V9zM4 15h16v-2H4v2z"
-                                />
-                              </svg>
-                            </div>
-                            <ul
-                              class="MuiList-root fullWidth"
-                            >
-                              <div
-                                class="MuiBox-root MuiBox-root-20"
-                              >
-                                <div
-                                  class="MuiBox-root MuiBox-root-21"
-                                >
-                                  <div>
-                                    <div
-                                      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                    >
-                                      <label
-                                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                                        data-shrink="true"
-                                      >
-                                        name
-                                      </label>
-                                      <div
-                                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                                      >
-                                        <input
-                                          aria-invalid="false"
-                                          class="MuiInputBase-input MuiInput-input"
-                                          name="user.animal.0.name"
-                                          type="text"
-                                          value=""
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="MuiBox-root MuiBox-root-22"
-                                >
-                                  <div>
-                                    <div
-                                      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-                                    >
-                                      <label
-                                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                                        data-shrink="true"
-                                      >
-                                        legs
-                                      </label>
-                                      <div
-                                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                                      >
-                                        <input
-                                          aria-invalid="false"
-                                          class="MuiInputBase-input MuiInput-input"
-                                          name="user.animal.0.legs"
-                                          type="number"
-                                          value=""
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </ul>
-                          </div>
-                          <div
-                            class="MuiListItemSecondaryAction-root"
-                          >
-                            <div
-                              class="MuiListItemIcon-root noIconSpacing"
-                            >
-                              <svg
-                                aria-hidden="true"
-                                class="MuiSvgIcon-root deleteListItem"
-                                focusable="false"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
                                   d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
                                 />
                               </svg>
-                            </div>
-                          </div>
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
                         </li>
                       </div>
                       <div>
@@ -590,13 +636,15 @@ Object {
                           class="MuiDivider-root"
                         />
                         <li
-                          class="MuiListItem-container"
+                          class="MuiListItem-root MuiListItem-dense"
                         >
-                          <div
-                            class="MuiListItem-root MuiListItem-dense MuiListItem-secondaryAction"
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root drag-handle"
+                            tabindex="0"
+                            type="button"
                           >
-                            <div
-                              class="MuiListItemIcon-root drag-handle noIconSpacing"
+                            <span
+                              class="MuiIconButton-label"
                             >
                               <svg
                                 aria-hidden="true"
@@ -608,79 +656,88 @@ Object {
                                   d="M20 9H4v2h16V9zM4 15h16v-2H4v2z"
                                 />
                               </svg>
-                            </div>
-                            <ul
-                              class="MuiList-root fullWidth"
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <ul
+                            class="MuiList-root fullWidth"
+                          >
+                            <div
+                              class="MuiBox-root MuiBox-root-17"
                             >
                               <div
-                                class="MuiBox-root MuiBox-root-12"
+                                class="MuiBox-root MuiBox-root-18"
                               >
                                 <div
-                                  class="MuiBox-root MuiBox-root-13"
+                                  class="MuiBox-root MuiBox-root-19"
                                 >
-                                  <div>
-                                    <div
-                                      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                  >
+                                    <label
+                                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                      data-shrink="true"
                                     >
-                                      <label
-                                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                                        data-shrink="true"
-                                      >
-                                        name
-                                      </label>
-                                      <div
-                                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                                      >
-                                        <input
-                                          aria-invalid="false"
-                                          class="MuiInputBase-input MuiInput-input"
-                                          name="user.animal.1.name"
-                                          type="text"
-                                          value="Coco birdie"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  class="MuiBox-root MuiBox-root-14"
-                                >
-                                  <div>
+                                      name
+                                    </label>
                                     <div
-                                      class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                     >
-                                      <label
-                                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
-                                        data-shrink="true"
-                                      >
-                                        legs
-                                      </label>
-                                      <div
-                                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                                      >
-                                        <input
-                                          aria-invalid="false"
-                                          class="MuiInputBase-input MuiInput-input"
-                                          name="user.animal.1.legs"
-                                          type="number"
-                                          value="2"
-                                        />
-                                      </div>
+                                      <input
+                                        aria-invalid="false"
+                                        class="MuiInputBase-input MuiInput-input"
+                                        name="user.animal.1.name"
+                                        type="text"
+                                        value="Coco birdie"
+                                      />
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                            </ul>
-                          </div>
-                          <div
-                            class="MuiListItemSecondaryAction-root"
+                              <div
+                                class="MuiBox-root MuiBox-root-20"
+                              >
+                                <div
+                                  class="MuiBox-root MuiBox-root-21"
+                                >
+                                  <div
+                                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                                  >
+                                    <label
+                                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+                                      data-shrink="true"
+                                    >
+                                      legs
+                                    </label>
+                                    <div
+                                      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                    >
+                                      <input
+                                        aria-invalid="false"
+                                        class="MuiInputBase-input MuiInput-input"
+                                        name="user.animal.1.legs"
+                                        type="number"
+                                        value="2"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </ul>
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root deleteListItem"
+                            tabindex="0"
+                            type="button"
                           >
-                            <div
-                              class="MuiListItemIcon-root noIconSpacing"
+                            <span
+                              class="MuiIconButton-label"
                             >
                               <svg
                                 aria-hidden="true"
-                                class="MuiSvgIcon-root deleteListItem"
+                                class="MuiSvgIcon-root"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                               >
@@ -688,55 +745,62 @@ Object {
                                   d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
                                 />
                               </svg>
-                            </div>
-                          </div>
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
                         </li>
                       </div>
                     </div>
                   </ul>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-15"
+                  class="MuiBox-root MuiBox-root-22"
                 >
-                  <label
-                    class="MuiFormControlLabel-root"
+                  <div
+                    class="MuiBox-root MuiBox-root-23"
                   >
-                    <span
-                      aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-16 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-17 Mui-checked MuiIconButton-colorSecondary"
+                    <label
+                      class="MuiFormControlLabel-root"
                     >
                       <span
-                        class="MuiIconButton-label"
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-24 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-25 Mui-checked MuiIconButton-colorSecondary"
                       >
-                        <input
-                          checked=""
-                          class="PrivateSwitchBase-input-19"
-                          data-indeterminate="false"
-                          name="user.hasGlasses"
-                          type="checkbox"
-                          value="true"
-                        />
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root"
-                          focusable="false"
-                          viewBox="0 0 24 24"
+                        <span
+                          class="MuiIconButton-label"
                         >
-                          <path
-                            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                          <input
+                            checked=""
+                            class="PrivateSwitchBase-input-27"
+                            data-indeterminate="false"
+                            name="user.hasGlasses"
+                            type="checkbox"
+                            value="true"
                           />
-                        </svg>
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
                       </span>
                       <span
-                        class="MuiTouchRipple-root"
-                      />
-                    </span>
-                    <span
-                      class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-                    >
-                      hasGlasses
-                    </span>
-                  </label>
+                        class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      >
+                        hasGlasses
+                      </span>
+                    </label>
+                  </div>
                 </div>
               </div>
             </ul>
@@ -794,10 +858,10 @@ Object {
         class="MuiList-root fullWidth"
       >
         <div
-          class="MuiBox-root MuiBox-root-23"
+          class="MuiBox-root MuiBox-root-33"
         >
           <div
-            class="MuiBox-root MuiBox-root-24"
+            class="MuiBox-root MuiBox-root-34"
           >
             <ul
               class="MuiList-root fullWidth MuiList-subheader"
@@ -808,12 +872,14 @@ Object {
                 user
               </li>
               <div
-                class="MuiBox-root MuiBox-root-25"
+                class="MuiBox-root MuiBox-root-35"
               >
                 <div
-                  class="MuiBox-root MuiBox-root-26"
+                  class="MuiBox-root MuiBox-root-36"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-37"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -838,9 +904,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-27"
+                  class="MuiBox-root MuiBox-root-38"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-39"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -865,9 +933,11 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-28"
+                  class="MuiBox-root MuiBox-root-40"
                 >
-                  <div>
+                  <div
+                    class="MuiBox-root MuiBox-root-41"
+                  >
                     <div
                       class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                     >
@@ -923,94 +993,106 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-29"
+                  class="MuiBox-root MuiBox-root-42"
                 >
                   <ul
-                    class="MuiList-root fullWidth MuiList-subheader"
+                    class="MuiList-root fullWidth MuiList-dense MuiList-subheader"
                   >
                     <li
                       class="MuiListSubheader-root"
                     >
                       <div
-                        class="MuiToolbar-root MuiToolbar-dense"
+                        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
                       >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1"
-                        >
-                          animal
-                        </p>
                         <div
-                          class="MuiBox-root MuiBox-root-30"
+                          class="MuiGrid-root"
                         >
-                          <button
-                            class="MuiButtonBase-root MuiIconButton-root addListItem"
-                            tabindex="0"
-                            type="button"
+                          <p
+                            class="MuiTypography-root MuiTypography-body1"
                           >
-                            <span
-                              class="MuiIconButton-label"
+                            animal
+                          </p>
+                        </div>
+                        <div
+                          class="MuiGrid-root"
+                        >
+                          <div
+                            class="MuiBox-root MuiBox-root-43"
+                          >
+                            <button
+                              class="MuiButtonBase-root MuiIconButton-root addListItem"
+                              tabindex="0"
+                              type="button"
                             >
-                              <svg
-                                aria-hidden="true"
-                                class="MuiSvgIcon-root"
-                                focusable="false"
-                                viewBox="0 0 24 24"
+                              <span
+                                class="MuiIconButton-label"
                               >
-                                <path
-                                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                                />
-                              </svg>
-                            </span>
-                            <span
-                              class="MuiTouchRipple-root"
-                            />
-                          </button>
+                                <svg
+                                  aria-hidden="true"
+                                  class="MuiSvgIcon-root"
+                                  focusable="false"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                  />
+                                </svg>
+                              </span>
+                              <span
+                                class="MuiTouchRipple-root"
+                              />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div
-                  class="MuiBox-root MuiBox-root-31"
+                  class="MuiBox-root MuiBox-root-44"
                 >
-                  <label
-                    class="MuiFormControlLabel-root"
+                  <div
+                    class="MuiBox-root MuiBox-root-45"
                   >
-                    <span
-                      aria-disabled="false"
-                      class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-32 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                    <label
+                      class="MuiFormControlLabel-root"
                     >
                       <span
-                        class="MuiIconButton-label"
+                        aria-disabled="false"
+                        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-46 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                       >
-                        <input
-                          class="PrivateSwitchBase-input-35"
-                          data-indeterminate="false"
-                          name="user.hasGlasses"
-                          type="checkbox"
-                          value="true"
-                        />
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root"
-                          focusable="false"
-                          viewBox="0 0 24 24"
+                        <span
+                          class="MuiIconButton-label"
                         >
-                          <path
-                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          <input
+                            class="PrivateSwitchBase-input-49"
+                            data-indeterminate="false"
+                            name="user.hasGlasses"
+                            type="checkbox"
+                            value="true"
                           />
-                        </svg>
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
                       </span>
                       <span
-                        class="MuiTouchRipple-root"
-                      />
-                    </span>
-                    <span
-                      class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
-                    >
-                      hasGlasses
-                    </span>
-                  </label>
+                        class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      >
+                        hasGlasses
+                      </span>
+                    </label>
+                  </div>
                 </div>
               </div>
             </ul>
