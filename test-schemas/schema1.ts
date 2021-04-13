@@ -9,6 +9,13 @@ export const schema = object().shape({
             name: string().required(),
             legs: number().required()
         })),
-        hasGlasses: bool().required()
+        hasGlasses: bool().required(),
+        country: string().oneOf([
+            "Belgium",
+            "Germany",
+            "The Netherlands",
+            "United Kingdom",
+            "France",
+        ])
     })
 })

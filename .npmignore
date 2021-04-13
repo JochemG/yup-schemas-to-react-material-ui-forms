@@ -7,3 +7,4 @@
 /rollup.config.js
 /rollup.config.production.js
 /jest.config.ts
+/tsconfig.json

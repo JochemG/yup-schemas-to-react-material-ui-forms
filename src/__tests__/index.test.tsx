@@ -59,7 +59,8 @@ describe('FormFromSchema', () => {
                             name: 'Coco birdie',
                             legs: 2
                         }],
-                        hasGlasses: true
+                        hasGlasses: true,
+                        country: "Belgium"
                     }
                 },
                 actions
